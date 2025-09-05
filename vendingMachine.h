@@ -11,4 +11,5 @@ typedef struct
 }VendingMachine_t;
 
 void Menu(VendingMachine_t*);
-int VendingMachine_init(VendingMachine_t*);
+void VendingMachine_init(VendingMachine_t*);
+void VendingMachine_Process(VendingMachine_t*, int);
